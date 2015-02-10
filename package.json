@@ -1,16 +1,22 @@
 {
-    "name": "component-server",
-    "version": "0.0.0",
-    "description": "Example package.json. Feel free to copy!",
-    "main": "index.js",
-    "devDependencies": {
-        "gulp": "^3.8.10",
-        "component-helper": "^0.8.8",
-        "findup-sync": "^0.2.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/skyglobal/component-server.git"
-    },
-    "author": "Peter Mouland"
+  "name": "component-server",
+  "version": "0.0.0",
+  "description": "Example package.json. Feel free to copy!",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "component-helper": "^0.8.9",
+    "findup-sync": "^0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skyglobal/component-server.git"
+  },
+  "author": "Peter Mouland",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "es6-promise": "^2.0.1",
+    "express": "^4.11.2",
+    "inquirer": "^0.8.0"
+  }
 }

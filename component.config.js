@@ -23,12 +23,11 @@ module.exports = {
         config: './test/karma.conf.js',
         summary: './test/coverage/summary.json'
     },
-    serve: '_site', // can be a node app like below
-                    //{   script : 'src/app/server.js',
-                    //    host: 'http://localhost:3000',
-                    //    port: 3001,
-                    //    env: { NODE_ENV: 'local'}
-                    //}, // or serve static folders '_site' or ['_site','bower_component']
+    serve: {   script : './app.js',
+                host: 'http://localhost:3000',
+                port: 3001,
+                env: { NODE_ENV: 'development'}
+            }, // or serve static folders '_site' or ['_site','bower_component']
     paths: {
         /*
         All paths also have `script`, `styles`, `fonts`, `icons` and `images` properties
